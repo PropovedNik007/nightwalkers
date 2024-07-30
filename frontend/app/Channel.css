@@ -1,0 +1,55 @@
+/* CSS for the Channel component */
+
+/* Container for the chat channel */
+  body, html{
+    margin: 0;
+    height: 100%;
+  }
+  body{
+    background-image: url("./back.svg");
+    background-repeat: no-repeat;
+  }
+  .notificationWrapper{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 5.5rem 2.5rem;
+    flex-direction: column;
+  }
+    
+  /* Style for each notification */
+  .notification {
+    display: inline-block;
+    padding: 0.2rem 0.8rem;
+    border-radius: 8px;
+    background-color: rgba(181, 21, 21, 0.883);
+    color: #fff;
+    font-size: 1rem;
+    width: 86vw;
+    
+  }
+  
+  /* Add some margin to the bottom of each notification except the last one */
+  .notification:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  
+  .loadMore{
+  background-color: darkgrey;
+  width: 5rem;
+  height: 2rem;
+  color: #fff;
+  border-width: 0;
+  border-radius: 5px;
+  box-shadow: 5px;
+}
+.footerButton{
+  height: 3.5rem;
+  font-size: 2rem;
+  background-color: rgb(72, 70, 70) ;
+  border-width: 0;
+  border-radius: 5px;
+  box-shadow: 5px;
+  color: #fff;
+  padding: 0.2rem 3rem;
+}

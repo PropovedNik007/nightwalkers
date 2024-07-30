@@ -1,0 +1,21 @@
+.header{
+    height: 4.5rem;
+    background-color: lightgray;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-left: 1rem;
+    margin-right: 0.8rem;
+}
+.heading{
+    color: black;
+    font-size: 1.6rem;
+}
