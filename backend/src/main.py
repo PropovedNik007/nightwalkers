@@ -122,7 +122,7 @@ def lipReading(file: UploadFile):
 
 # @app.post("/text_formatter")
 # def textFormatter(text: str):  # Receive the string directly
-#     openai.api_key = "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"
+#     openai.api_key = "API_KEY"
 #     response = openai.Completion.create(
 #         model="text-davinci-003",
 #         prompt=f"we are interprating with lip reading a expression that is sent by medical and security staff over to other crew members. can you help us to remove fuzzy words and replace misheard words with fitting words. i give you now an example sentence and i want you to response in a json with text=here the correct sentence. and please just response with the json and don't comment it because I want to use your output directly in my app. Sentence: {text}",
